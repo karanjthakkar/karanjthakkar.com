@@ -1,5 +1,36 @@
 var oss = [
   {
+    "url": "https://github.com/kevinresol/react-native-default-preference",
+    "name": "kevinresol/react-native-default-preference",
+    "stars": 20,
+    "forks": 7,
+    "prs": [
+      {
+        "url": "https://github.com/kevinresol/react-native-default-preference/pull/10",
+        "title": "Add missing homepage attribute in podspec",
+        "state": "merged"
+      },
+      {
+        "url": "https://github.com/kevinresol/react-native-default-preference/pull/9",
+        "title": "Create RNDefaultPreference.podspec",
+        "state": "merged"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/react-native-training/react-native-elements",
+    "name": "react-native-training/react-native-elements",
+    "stars": 4932,
+    "forks": 399,
+    "prs": [
+      {
+        "url": "https://github.com/react-native-training/react-native-elements/pull/310",
+        "title": "feat(ListItem): Allow a react component to be passed for icon",
+        "state": "open"
+      }
+    ]
+  },
+  {
     url: 'https://github.com/facebook/react-native',
     name: 'facebook/react-native',
     stars: 45495,
