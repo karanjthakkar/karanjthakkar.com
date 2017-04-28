@@ -173,6 +173,11 @@ a {
   font-size: 20px;
   color: #5757e6;
   border-bottom-color: #5757e6;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre;
+  margin-right: 10px;
 }
 
 .repos__item__body {
