@@ -87,36 +87,14 @@ a {
   text-decoration: none;
 }
 
-/* Projects screen */
-.projects {
+.projects, .writing, .oss, .speaking {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  min-height: 100vh;
   padding: 0 10%;
   position: relative;
-}
-
-/* Writing screen */
-.writing {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  min-height: 100vh;
-  padding: 0 10%;
-  position: relative;
-}
-
-/* Open Source */
-.oss {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  min-height: 100vh;
-  padding: 0 10%;
-  position: relative;
+  margin-top: 48px;
 }
 
 .repos, .prs {
@@ -212,6 +190,10 @@ a {
   padding-left: 0;
 }
 
+.projects {
+  margin-bottom: 48px;
+}
+
 .list__item {
   position: relative;
   padding-left: 44px;
@@ -225,6 +207,10 @@ a {
   position: absolute;
   left: 0;
   top: 6px;
+}
+
+.list--compact .list__item:before {
+  top: 0;
 }
 
 .list__item__heading {
